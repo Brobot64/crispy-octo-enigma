@@ -1,0 +1,28 @@
+.flexy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50vw;
+  gap: 10px;
+  background-color: cadetblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+.flexy div {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: red;
+  font-size: 30px;
+  color: antiquewhite;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background-color: chocolate;
+  }
+}/*# sourceMappingURL=stylsass.css.map */
